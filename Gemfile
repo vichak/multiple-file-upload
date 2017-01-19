@@ -51,3 +51,6 @@ gem 'paperclip'
 gem 'therubyracer'
 
 gem 'jquery-fileupload-rails'
+
+gem 'sprockets-rails'
+gem 'rmagick'

@@ -15,3 +15,11 @@ This project uses the MIT License.
 
 [![Dependency Status](https://gemnasium.com/5minpause/multiple-file-upload.svg)](https://gemnasium.com/5minpause/multiple-file-upload)
 
+# Running multiple-file-upload in Docker container
+## Docker container
+```shell
+docker build -t multiple-file-upload .
+docker run -i -t -p 3000:3000 multiple-file-upload
+```
+## Access to multiple-file-upload
+`http://<hostIpOrName>:3000`
